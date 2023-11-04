@@ -1,6 +1,6 @@
 package com.lystudy.service;
 
-import com.lystudy.domain.Article;
+import com.lystudy.domain.entity.Article;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.lystudy.domain.ResponseResult;
 

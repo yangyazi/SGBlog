@@ -3,7 +3,7 @@ package com.lystudy.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.lystudy.domain.Article;
+import com.lystudy.domain.entity.Article;
 import com.lystudy.domain.ResponseResult;
 import com.lystudy.service.ArticleService;
 import com.lystudy.mapper.ArticleMapper;

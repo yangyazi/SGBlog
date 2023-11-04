@@ -1,4 +1,4 @@
-package com.lystudy.domain;
+package com.lystudy.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
