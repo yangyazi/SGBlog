@@ -43,7 +43,7 @@ public class Article implements Serializable {
      * 所属分类id
      */
     @TableField(value = "category_id")
-    private Long category_id;
+    private Long categoryId;
 
     /**
      * 缩略图
@@ -55,7 +55,7 @@ public class Article implements Serializable {
      * 是否置顶（0否，1是）
      */
     @TableField(value = "is_top")
-    private String is_top;
+    private String isTop;
 
     /**
      * 状态（0已发布，1草稿）
@@ -67,43 +67,43 @@ public class Article implements Serializable {
      * 访问量
      */
     @TableField(value = "view_count")
-    private Long view_count;
+    private Long viewCount;
 
     /**
      * 是否允许评论 1是，0否
      */
     @TableField(value = "is_comment")
-    private String is_comment;
+    private String isComment;
 
     /**
      * 
      */
     @TableField(value = "create_by")
-    private Long create_by;
+    private Long createBy;
 
     /**
      * 
      */
     @TableField(value = "create_time")
-    private LocalDateTime create_time;
+    private LocalDateTime createTime;
 
     /**
      * 
      */
     @TableField(value = "update_by")
-    private Long update_by;
+    private Long updateBy;
 
     /**
      * 
      */
     @TableField(value = "update_time")
-    private LocalDateTime update_time;
+    private LocalDateTime updateTime;
 
     /**
      * 删除标志（0代表未删除，1代表已删除）
      */
     @TableField(value = "del_flag")
-    private Integer del_flag;
+    private Integer delFlag;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;

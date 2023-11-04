@@ -1,13 +1,11 @@
 package com.lystudy.ArticleController;
 
-import com.lystudy.domain.Article;
+import com.lystudy.domain.ResponseResult;
 import com.lystudy.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 /**
  * @author luyoung
@@ -20,11 +18,18 @@ import java.util.List;
 public class ArticleController {
 
     @Autowired
-    private ArticleService service;
+    private ArticleService articleService;
 
+//    @GetMapping("/list")
+//    public List<Article> test(){
+//        return service.list();
+//    }
 
-    @GetMapping("/list")
-    public List<Article> test(){
-        return service.list();
+    @GetMapping("/hotArticleList")
+    public ResponseResult hotArticleList(){
+
+        ResponseResult result = articleService.hotArticleList();
+        return result;
+
     }
 }
