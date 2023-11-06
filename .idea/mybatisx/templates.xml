@@ -13,7 +13,7 @@
             <option name="extraClassSuffix" value="" />
             <option name="ignoreFieldPrefix" value="" />
             <option name="ignoreFieldSuffix" value="" />
-            <option name="ignoreTablePrefix" value="" />
+            <option name="ignoreTablePrefix" value="sg_" />
             <option name="ignoreTableSuffix" value="" />
             <option name="jsr310Support" value="true" />
             <option name="moduleName" value="lystudy-framework" />
@@ -58,13 +58,13 @@
                 </ModuleInfoGo>
               </list>
             </option>
-            <option name="relativePackage" value="domain" />
+            <option name="relativePackage" value="domain.entity" />
             <option name="superClass" value="" />
             <option name="tableUIInfoList">
               <list>
                 <TableUIInfo>
-                  <option name="className" value="Category" />
-                  <option name="tableName" value="sg_category" />
+                  <option name="className" value="Link" />
+                  <option name="tableName" value="sg_link" />
                 </TableUIInfo>
               </list>
             </option>

@@ -1,0 +1,4 @@
+com\lystudy\service\LinkService.class
+com\lystudy\service\impl\LinkServiceImpl.class
+com\lystudy\domain\entity\Link.class
+com\lystudy\mapper\LinkMapper.class
