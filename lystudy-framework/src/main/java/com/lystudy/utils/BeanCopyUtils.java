@@ -1,6 +1,5 @@
 package com.lystudy.utils;
 
-import com.fasterxml.jackson.databind.util.BeanUtil;
 import com.lystudy.domain.entity.Article;
 import com.lystudy.domain.vo.HotArticleVo;
 import org.springframework.beans.BeanUtils;

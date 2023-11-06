@@ -10,10 +10,8 @@ import com.lystudy.domain.vo.HotArticleVo;
 import com.lystudy.service.ArticleService;
 import com.lystudy.mapper.ArticleMapper;
 import com.lystudy.utils.BeanCopyUtils;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
