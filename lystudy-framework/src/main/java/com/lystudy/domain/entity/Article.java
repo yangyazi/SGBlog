@@ -6,7 +6,11 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
  * 文章表
@@ -14,6 +18,9 @@ import lombok.Data;
  */
 @TableName(value ="sg_article")
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Accessors(chain = true)
 public class Article implements Serializable {
     /**
      * 
@@ -44,6 +51,12 @@ public class Article implements Serializable {
      */
     @TableField(value = "category_id")
     private Long categoryId;
+
+    /**
+     * 所属分类id
+     */
+    @TableField(exist = false)
+    private String categoryName;
 
     /**
      * 缩略图
